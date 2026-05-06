@@ -36,6 +36,12 @@ export function Navbar() {
 
         <nav className="hidden items-center gap-8 md:flex">
           <a
+            href="#Hero"
+            className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-400 transition-colors hover:text-foreground"
+          >
+            Main
+          </a>
+          <a
             href="#systems"
             className="font-mono text-[11px] uppercase tracking-[0.24em] text-zinc-400 transition-colors hover:text-foreground"
           >
